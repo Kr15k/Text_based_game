@@ -1,18 +1,26 @@
 {
     "underground_room": {
         "name": "UndergroundRoom",
-        "description": "You enter the room and uæUÆHFAKFOPAF",
-        "items": ["sword"],
+        "description": [
+            "You enter the room and uæUÆHFAKFOPAF"
+        ],
+        "items": ["Sword", "Sheild"],
         "exits": {"north": "hallway", "east": "the_dock"}
     },
     "hallway": {
         "name": "Hallway",
-        "description": "WOAAAAAAAA.... I think this is a hallway",
+        "description": [
+            "WOAAAAAAAA.... I think this is a hallway"
+        ],
+        "items": [],
         "exits": {"south": "underground_room", "east": "the_dock"}
     },
     "the_dock": {
         "name": "TheDock",
-        "description": "Its a dock, what did u expect?",
+        "description": [
+            "Its a dock, what did u expect?"
+        ],
+        "items": [],
         "exits": {"north": "hallway", "west": "underground_room"}
     }
 }
